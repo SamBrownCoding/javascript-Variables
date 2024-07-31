@@ -159,4 +159,31 @@ ageInDay = age * 365;
 
 console.log(ageInDay + " days");
 
+//WEATHER EXAMPLE PRACTICE
+var temp = 87;
+var conditions = "sunny AF";
+var sunriseTime = "6:14 AM";
+var sunsetTime = "7:51 PM";
 
+console.log(`It's currently ${conditions} and ${temp}\u00B0. The sun rose this morning at ${sunriseTime} and will set at ${sunsetTime}, thank god! `)
+
+//PRACTICE
+
+var a = "3";
+var b = "8";
+
+var temp = a;
+a = b;
+b = temp;
+
+console.log(`a is ${a}\nb is ${b}`)
+
+
+//PRACTICE THE PROMPT
+
+let firstName = prompt("What is your first name: ");
+let lastName = prompt("What is your last name: ");
+let fullName = firstName + " " + lastName;
+const greeting = "What sup";
+
+console.log(`${greeting}` + ` ${fullName}!!`)
